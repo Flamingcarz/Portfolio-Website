@@ -5,7 +5,7 @@
 .profile-pic {
     height: 100px;
     width: 100px;
-    border-radius: 75%;
+    border-radius: 50%;
 }
 
 .header-container {
@@ -23,11 +23,6 @@ body {
     border-style: groove;
 }
 
-.image-container {
-    display: flex;
-    place-content: center;
-}
-
 .header {
     display: flex;
     flex-direction: row;
@@ -37,6 +32,22 @@ body {
     font-family:'Trebuchet MS';
     font-style: bold; 
     font-size: 30px;
+}
+
+.table, tr, td{
+    border: 0;
+    width: 100%;
+    padding: 15;
+    border-spacing: 0;
+    background-color: #4CAF50;
+}
+
+.tab, tr, td {
+    border: 0;
+    padding: 25;
+    border-spacing: 0; 
+    width: 70%;
+    text-align: center;
 }
 
 .name {
@@ -77,22 +88,6 @@ body {
 .about-container {
     display: flex;
     gap: 40px;
-}
-
-.table, tr, td{
-    border: 0;
-    width: 100%;
-    padding: 15;
-    border-spacing: 0;
-    background-color: #4CAF50;
-}
-
-.tab, tr, td {
-    border: 0;
-    padding: 25;
-    border-spacing: 0; 
-    width: 70%;
-    text-align: center;
 }
 
 .about {
